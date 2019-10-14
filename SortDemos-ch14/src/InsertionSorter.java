@@ -19,9 +19,10 @@ public class InsertionSorter
             // Move all larger elements up
             int j = i -1;
             //while (j > 0 && a[j - 1] > next)
+		comps++;
             while(j >= 0 && a[j] > next)
             {
-            	comps++;
+            	
             	a[j + 1] = a[j];
             	
             	
